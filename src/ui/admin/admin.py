@@ -8,3 +8,8 @@
 "    if request.method == 'POST':" 
 "        product_name = request.form['product_name']" 
 "        # Logic to save product in database" 
+"def assign_role(user_id, role):" 
+"    # Logic to assign roles to users based on user_id" 
+"@admin_bp.route('/admin/users/roles', methods=['POST'])" 
+"def manage_roles():" 
+"    # Handle role management logic" 
