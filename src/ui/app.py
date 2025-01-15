@@ -24,3 +24,8 @@
 "    page = request.args.get('page', 1, type=int)" 
 "    products = get_products_paginated(page)" 
 "    return render_template('products.html', products=products)" 
+"@app.route('/search', methods=['GET'])" 
+"def search():" 
+"    query = request.args.get('q')" 
+"    results = search_products(query)" 
+"    return render_template('search_results.html', results=results)" 
