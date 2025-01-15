@@ -7,3 +7,6 @@
 "@orders.route('/orders/create', methods=['POST'])" 
 "def create_order():" 
 "    # Handle order creation" 
+"@jwt_required()" 
+"def list_orders():" 
+"    # Logic to list orders with JWT protection" 
