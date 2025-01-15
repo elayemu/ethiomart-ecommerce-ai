@@ -24,3 +24,6 @@
 "        file = request.files['file']" 
 "        filename = secure_filename(file.filename)" 
 "        file.save(os.path.join('static/images', filename))" 
+"@auth_bp.route('/logout')" 
+"def logout():" 
+"    # Handle logout logic" 
