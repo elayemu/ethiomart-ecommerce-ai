@@ -35,3 +35,6 @@
 "@app.route('/redeem_coupon')" 
 "def redeem_coupon():" 
 "    # Logic to handle coupon redemption" 
+"@app.route('/subscribe', methods=['POST'])" 
+"def subscribe():" 
+"    # Logic to handle newsletter subscription" 
