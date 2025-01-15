@@ -6,3 +6,7 @@
 "        # Handle login logic here" 
 "        return redirect(url_for('home'))" 
 "    return render_template('login.html')" 
+"        username = request.form['username']" 
+"        password = request.form['password']" 
+"        if username == '' or password == '':" 
+"            # Handle invalid input" 
