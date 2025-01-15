@@ -1,0 +1,6 @@
+"from flask_mail import Mail, Message" 
+"mail = Mail(app)" 
+"def send_order_confirmation(email):" 
+"    msg = Message('Order Confirmation', recipients=[email])" 
+"    msg.body = 'Thank you for your order!'" 
+"    mail.send(msg)" 
