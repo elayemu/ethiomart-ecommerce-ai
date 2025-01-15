@@ -1,0 +1,6 @@
+"from flask import Blueprint, request" 
+"reviews = Blueprint('reviews', __name__)" 
+"@reviews.route('/reviews', methods=['GET'])" 
+"def list_reviews():" 
+"    reviews = get_all_reviews()" 
+"    return render_template('reviews.html', reviews=reviews)" 
