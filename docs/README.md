@@ -1,0 +1,5 @@
+"# EthioMart E-commerce AI" 
+"A centralized platform for Telegram-based e-commerce in Ethiopia." 
+"## Features" 
+"* Real-time data extraction" 
+"* Named Entity Recognition" 
