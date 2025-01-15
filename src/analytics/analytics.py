@@ -1,0 +1,5 @@
+"from flask import Blueprint" 
+"analytics = Blueprint('analytics', __name__)" 
+"@analytics.route('/dashboard')" 
+"def dashboard():" 
+"    # Logic to fetch analytics data" 
