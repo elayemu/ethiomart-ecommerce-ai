@@ -1,0 +1,8 @@
+"from flask import Blueprint, render_template, request, redirect, url_for" 
+"auth_bp = Blueprint('auth', __name__)" 
+"@auth_bp.route('/login', methods=['GET', 'POST'])" 
+"def login():" 
+"    if request.method == 'POST':" 
+"        # Handle login logic here" 
+"        return redirect(url_for('home'))" 
+"    return render_template('login.html')" 
