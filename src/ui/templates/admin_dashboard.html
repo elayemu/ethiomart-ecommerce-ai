@@ -1,0 +1,1 @@
+"<html><body><h1>Admin Dashboard</h1><table><tr><th>Product Name</th><th>Actions</th></tr>{% for product in products %}<tr><td>{{ product.name }}</td><td><a href='/edit/{{ product.id }}'>Edit</a> | <a href='/delete/{{ product.id }}'>Delete</a></td></tr>{% endfor %}</table></body></html>" 
