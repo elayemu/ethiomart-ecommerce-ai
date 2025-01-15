@@ -4,3 +4,6 @@
 "def list_orders():" 
 "    orders = get_orders()" 
 "    return render_template('orders.html', orders=orders)" 
+"@orders.route('/orders/create', methods=['POST'])" 
+"def create_order():" 
+"    # Handle order creation" 
