@@ -3,3 +3,8 @@
 "@admin_bp.route('/admin/products')" 
 "def manage_products():" 
 "    # Logic for managing products" 
+"@admin_bp.route('/admin/products/add', methods=['GET', 'POST'])" 
+"def add_product():" 
+"    if request.method == 'POST':" 
+"        product_name = request.form['product_name']" 
+"        # Logic to save product in database" 
