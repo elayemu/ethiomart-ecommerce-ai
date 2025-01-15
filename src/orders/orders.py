@@ -1,0 +1,6 @@
+"from flask import Blueprint, request" 
+"orders = Blueprint('orders', __name__)" 
+"@orders.route('/orders')" 
+"def list_orders():" 
+"    orders = get_orders()" 
+"    return render_template('orders.html', orders=orders)" 
