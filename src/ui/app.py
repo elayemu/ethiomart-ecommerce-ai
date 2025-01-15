@@ -7,3 +7,8 @@
 "    app.run(debug=True)" 
 "from flask_migrate import Migrate" 
 "migrate = Migrate(app, db)" 
+"import logging" 
+"@app.errorhandler(404)" 
+"def not_found(e):" 
+"    return render_template('404.html'), 404" 
+"logging.basicConfig(filename='app.log', level=logging.ERROR)" 
