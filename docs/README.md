@@ -3,3 +3,7 @@
 "## Features" 
 "* Real-time data extraction" 
 "* Named Entity Recognition" 
+"## Installation" 
+"1. Clone the repo." 
+"2. Install dependencies: `pip install -r requirements.txt`" 
+"3. Run the application: `python src/ui/app.py`" 
