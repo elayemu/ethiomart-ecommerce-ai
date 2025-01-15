@@ -3,3 +3,5 @@ numpy
 scikit-learn 
 tensorflow 
 nltk 
+pytest   # Include pytest for testing
+requests   # If using requests for any API calls
