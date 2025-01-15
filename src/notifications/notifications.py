@@ -1,0 +1,6 @@
+"from flask import Blueprint, request" 
+"notifications = Blueprint('notifications', __name__)" 
+"@notifications.route('/notifications')" 
+"def list_notifications():" 
+"    notifications = get_notifications()" 
+"    return render_template('notifications.html', notifications=notifications)" 
