@@ -32,3 +32,6 @@
 "@app.route('/place_order')" 
 "def place_order():" 
 "    # Logic to handle new order placement" 
+"@app.route('/redeem_coupon')" 
+"def redeem_coupon():" 
+"    # Logic to handle coupon redemption" 
