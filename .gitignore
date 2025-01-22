@@ -1,0 +1,7 @@
+data/
+venv/
+.env
+telegram_data1.csv
+telegram_data2
+telegram_messages.csv
+scraping_session.session
